@@ -19,12 +19,12 @@
 
 </head>
 <body>
-    <nav>
+    <nav id="navbar">
     <div class="nav-links" id="navLinks">
         <i class="fa fa-times" onclick="hideMenu()"></i>
         
 
-        <ul >
+        <ul id="menu">
             
             <div><img src="logo1.png" alt="">
       
@@ -68,9 +68,9 @@
 </section>
 <section class="breakk">
 <h1>Dine-in Today</h1>
-<a href="">
+
     <img src="1c.png" alt="">
-</a>
+
 
 
 
@@ -161,10 +161,24 @@
 </div>
 </section>
 
+<script>
 
-    <script>
+    var navbar = document.getElementById("navbar");
+    var menu = document.getElementById("menu");
 
+    window.onscroll = function(){
+        if(window.pageYOffset >= menu.offsetTop){
+            navbar.classList.add("sticky");
 
+        }
+        else{
+            navbar.classList.remove("sticky");
+        }
+    }
+
+</script>
+    
+<script>
         var navLinks = document.getElementById("navLinks");
     
         function showMenu(){
@@ -175,6 +189,7 @@
             navLinks.style.right = "-200px";
         }
         
+
        
         
     </script>

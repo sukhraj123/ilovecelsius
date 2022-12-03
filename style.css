@@ -7,7 +7,11 @@
 
 }
 
-
+nav.sticky{
+    position: fixed;
+    top: 0;
+    
+}
 header{
     width: 100%;
     background-color: #252525;
@@ -17,7 +21,7 @@ header{
     background-image: url(bg1.jpg);
     background-size: cover;
     
-    position: relative;
+    position:-webkit-sticky;
     background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -60,11 +64,12 @@ header p{
     font-size: 80px;
     color: #fff;
     font-weight: 200;
+    position:-webkit-sticky;
 }
 .text-box p{
     margin: 10px 0 40px;
     font-size: 42px;
-    
+    position:-webkit-sticky;
     color: #fff;
 }
 
@@ -94,13 +99,17 @@ header p{
     
     background-size: cover;
     
-    position: relative;
+    position:-webkit-sticky;
     background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
     display: flex;
     
     padding-top: 25px;
+
+}
+.break a{
+    position:-webkit-sticky;
 
 }
 .breakk{
@@ -112,8 +121,8 @@ header p{
     background-size: cover;
     
     background-image: url(bg4.jpg);
-    position: relative;
-    background-attachment: fixed;
+    position:-webkit-sticky;
+    
   background-position: center;
   background-repeat: no-repeat;
     padding-top: 100px;
@@ -123,6 +132,7 @@ header p{
 }
 .breakk img{
     width: 700px;
+    position:-webkit-sticky;
 }
 .about{
 
@@ -131,7 +141,7 @@ header p{
     background-image: url(4.png);
     background-size: cover;
     
-    position: relative;
+    position:-webkit-sticky;
     background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -268,7 +278,7 @@ p{
     margin: auto;
     display: flex;
    
-    position: relative;
+    position:-webkit-sticky;
     
     margin-top: 50px;
     border: #fa7e09;
@@ -364,7 +374,7 @@ h4{
     background-image: url(bg5.jpg);
     margin: auto;
     width: 100%;
-
+    position:-webkit-sticky;
     background-position: center;
     background-size: cover;
     
@@ -870,7 +880,7 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
         display: block;
         color: #0071bc;
         margin: 16px;
-        font-size: 22px;
+        font-size: 32px;
         cursor: pointer;
         transition: 1s;
 
@@ -881,9 +891,10 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
         display: block;
         color: #0071bc;
         margin: 16px;
-        font-size: 22px;
+        font-size: 32px;
         cursor: pointer;
         transition: 1s;
+
     }
     
     .nav-links ul{
@@ -910,7 +921,7 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
     margin: auto;
     display: flex;
    
-    position: relative;
+    position: -webkit-sticky;
     
     margin-top: 50px;
     border: #fa7e09;
@@ -990,7 +1001,7 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
     background-image: url(bg5.jpg);
     margin: auto;
     width: 100%;
-
+    position:-webkit-sticky;
     background-position: center;
     background-size: cover;
     
@@ -1011,16 +1022,18 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
     box-sizing: border-box;
     transition: 0.5s;
     text-align: center;
-    
+    position:-webkit-sticky;
     background-size: cover;
     background-image: url(bg2.jpg);
-    position: relative;
+    
+    
     
 }
 .social img{
     width: 900px;
     padding-top: 100px;
     padding-bottom: 100px;
+    position:-webkit-sticky;
 }
 .sociall{
     flex-basis: 31%;
@@ -1033,7 +1046,7 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
     justify-content: space-around;
     background-size: cover;
     background-color: #fff;
-    position: relative;
+    position:-webkit-sticky;
     
 }
 .sociall img{
