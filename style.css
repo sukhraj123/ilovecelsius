@@ -18,7 +18,7 @@ header{
     
     margin: auto;
     height: 500px;
-    background-image: url(bg1.jpg);
+    background-image: url(bg1.png);
     background-size: cover;
     
     position:-webkit-sticky;
@@ -94,7 +94,7 @@ header p{
     min-height: 200px;
     width: 100%;
     
-    background-image: url(bg1.jpg);
+    background-image: url(bg1.png);
     padding-left: 3%;
     
     background-size: cover;
@@ -120,7 +120,7 @@ header p{
     display: flex;
     background-size: cover;
     
-    background-image: url(bg4.jpg);
+    background-image: url(bg4.png);
     position:-webkit-sticky;
     
   background-position: center;
@@ -167,7 +167,7 @@ header p{
 }
 nav{
     display: flex;
-    padding: 2% 6%;
+    padding: 0% 2%;
     float: left;
     background-attachment: fixed;
     justify-content: space-between;
@@ -371,7 +371,7 @@ h4{
 .bottom{
 
     background-color: #1b1b11;
-    background-image: url(bg5.jpg);
+    background-image: url(bg5.png);
     margin: auto;
     width: 100%;
     position:-webkit-sticky;
@@ -998,7 +998,7 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
 .bottom{
 
     background-color: #1b1b11;
-    background-image: url(bg5.jpg);
+    background-image: url(bg5.png);
     margin: auto;
     width: 100%;
     position:-webkit-sticky;
@@ -1024,7 +1024,7 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
     text-align: center;
     position:-webkit-sticky;
     background-size: cover;
-    background-image: url(bg2.jpg);
+    background-image: url(bg2.png);
     
     
     
