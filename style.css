@@ -20,6 +20,7 @@ header{
     height: 500px;
     background-image: url(bg1.png);
     background-size: 250%;
+    background-position: center;
     
     position:-webkit-sticky;
     background-attachment: fixed;
@@ -118,7 +119,7 @@ header p{
     
     background-position: center;
     display: flex;
-    background-size: cover;
+    background-size: 250%;
     
     background-image: url(bg4.png);
     position:-webkit-sticky;
@@ -373,10 +374,10 @@ h4{
     background-color: #1b1b11;
     background-image: url(bg5.png);
     margin: auto;
-    width: 100%;
+    
     position:-webkit-sticky;
     background-position: center;
-    background-size: cover;
+    background-size: 250%;
     
     text-align: center;
     animation: fadeIn 5s;
@@ -1000,10 +1001,10 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
     background-color: #1b1b11;
     background-image: url(bg5.png);
     margin: auto;
-    width: 100%;
+    
     position:-webkit-sticky;
     background-position: center;
-    background-size: cover;
+    background-size: 250%;
     
     text-align: center;
     animation: fadeIn 5s;
@@ -1023,7 +1024,7 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
     transition: 0.5s;
     text-align: center;
     position:-webkit-sticky;
-    background-size: cover;
+    background-size: 250%;
     background-image: url(bg2.png);
     
     
