@@ -163,6 +163,7 @@ nav{
     justify-content: space-between;
     align-items: left;
    
+   
     
 }
 nav img{
@@ -656,6 +657,7 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
  @media(max-width: 900px){
     .so{
         display: block;
+        width: 30px;
     }
     .logo{
         display: block;
