@@ -313,6 +313,9 @@ p{
     display: block;
     padding: 15px;
 }
+.seo .tru{
+    width: 150px;
+}
 .pp{
     width: 100%;
     flex-basis: 40%;
