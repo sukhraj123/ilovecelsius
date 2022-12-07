@@ -463,7 +463,13 @@ margin: auto;
     height: fit-content;
     background-color: #231f20;
 }
-
+.phone a{
+    margin: auto;
+}
+.phone h1{
+    margin: auto;
+    text-align: center;
+}
 .pop{
     color:#fff;
     font-size: 10px;
