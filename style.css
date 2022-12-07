@@ -823,7 +823,7 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
     @media(max-width: 1900px){
     .text-box h1{
         width: 100%;
-        top: 10%;
+        margin-top: 50%;
         display: block;
         margin: auto;
     }
@@ -944,7 +944,7 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
     display: flex;
    
     position: -webkit-sticky;
-    
+    background-size: 300%;
     margin-top: 50px;
     border: #fa7e09;
     border-radius: 10px;
