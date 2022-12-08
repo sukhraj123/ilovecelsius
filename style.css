@@ -20,9 +20,9 @@ header{
     
     margin: auto;
     height: 800px;
-    background-image: url(new.png);
+    background-image: url(cshop.gif);
     
-    background-size: 100%;
+    background-size: 120%;
     
     position:-webkit-sticky;
     
@@ -856,9 +856,10 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
             width: 100px;
         }
         header{
-            background-image: url(new1.png);
+            background-image: url(cshop.gif);
             background-color: #393737;
-
+            background-size: 170%;
+            height: 350px;
         }
        .header img{
         width: 200px;
