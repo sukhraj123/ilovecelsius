@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="logo1.png">
     <title>Celsius 幾度</title>
+    <link rel="stylesheet" href="aos-by-red.css">
+     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <link rel="stylesheet" href="style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,7 +18,7 @@
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
         <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="http://fortawesome.github.io/Font-Awesome/assets/font-awesome/css/font-awesome.css"> 
-
+<script defer src="app.js"></script>
 </head>
 <body>
     <nav id="navbar">
@@ -26,11 +28,11 @@
 
         <ul id="menu">
             
-            <div><img src="logo1.png" alt="">
+            <div><img src="logo1.png" alt="" data-aos="flip-up">
       
            <li> <a href="index.html" class="hero-htn">Home</a></li>
             <li><a href="menu.html" class="hero-htn">Menu</a></li>
-            <li><a href="https://food.google.com/chooseprovider?restaurantId=/g/11f6ndhklq&g2lbs=AL1YbfXmCa_kgS4Cd9yE8McXirMpZ0QpMh3u27AceXqZ8aHCo0l6F9e-h4cCW26sIo-hwaz6hEduWh0nUBpaF-imVuyAmLPcZOkdGLINwWxgsOB5tv9rYts%3D&hl=en-CA&gl=ca&fo_m=MfohQo559jFvMWvkddHzV46uMT_RFPQ05bfKMQVr5-7IofUJMU_hT8vrWuwRMUv3d8yCO4PgMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&gei=tL6CY7T7FtKz0PEPopeYkAI&ei=tL6CY7T7FtKz0PEPopeYkAI&fo_s=OA,AH&sei=CZl1C0dVKWqPEVGnmoGdc9er&utm_campaign&utm_source=tactile" class="hero-htn">Order Now</a></li>
+            <li><a href="#order" class="hero-htn">Order Now</a></li>
             <li><a href="https://www.instagram.com/ilovecelsius/?hl=en"><img src="instagram(1).png" class="so" alt=""></a></li>
 
                 <li><a href="https://www.facebook.com/ilovecelsius/"><img src="facebook(1).png" class="so" alt=""></a></li>
@@ -55,18 +57,20 @@
         
 
     </header>
-
+    <h3 id="order">Order Delivery or Pick-up</h3>
     <section class="break">
-        <a href="https://www.ubereats.com/ca/store/celsius-bubble-tea/hrQdPuX9Sje-hL_ECJL6ww" class="hero-btn"> <img src="uber.png" alt=""> </a>
-        <a href="https://food.google.com/chooseprovider?restaurantId=/g/11f6ndhklq&g2lbs=AL1YbfXmCa_kgS4Cd9yE8McXirMpZ0QpMh3u27AceXqZ8aHCo0l6F9e-h4cCW26sIo-hwaz6hEduWh0nUBpaF-imVuyAmLPcZOkdGLINwWxgsOB5tv9rYts%3D&hl=en-CA&gl=ca&fo_m=MfohQo559jFvMWvkddHzV46uMT_RFPQ05bfKMQVr5-7IofUJMU_hT8vrWuwRMUv3d8yCO4PgMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&gei=tL6CY7T7FtKz0PEPopeYkAI&ei=tL6CY7T7FtKz0PEPopeYkAI&fo_s=OA,AH&sei=CZl1C0dVKWqPEVGnmoGdc9er&utm_campaign&utm_source=tactile" class="hero-btn"> <img src="dash.png" alt=""> </a>
-        <a href="https://www.skipthedishes.com/celsius-bubble-tea-fraser-street" class="hero-btn"> <img src="skip.jpg" alt=""> </a></div>
+        <div class="break" >
+        
+        <a href="https://www.ubereats.com/ca/store/celsius-bubble-tea/hrQdPuX9Sje-hL_ECJL6ww" class="hero-btn"> <img src="uber.png" alt="" data-aos="fade-right"> </a>
+        <a href="https://food.google.com/chooseprovider?restaurantId=/g/11f6ndhklq&g2lbs=AL1YbfXmCa_kgS4Cd9yE8McXirMpZ0QpMh3u27AceXqZ8aHCo0l6F9e-h4cCW26sIo-hwaz6hEduWh0nUBpaF-imVuyAmLPcZOkdGLINwWxgsOB5tv9rYts%3D&hl=en-CA&gl=ca&fo_m=MfohQo559jFvMWvkddHzV46uMT_RFPQ05bfKMQVr5-7IofUJMU_hT8vrWuwRMUv3d8yCO4PgMUOzJVpjPL1YMfZ3bInYwBDuMfaXTPp5KXh-&gei=tL6CY7T7FtKz0PEPopeYkAI&ei=tL6CY7T7FtKz0PEPopeYkAI&fo_s=OA,AH&sei=CZl1C0dVKWqPEVGnmoGdc9er&utm_campaign&utm_source=tactile" class="hero-btn"> <img src="dash.png" alt="" data-aos="fade-right"> </a>
+        <a href="https://www.skipthedishes.com/celsius-bubble-tea-fraser-street" class="hero-btn" data-aos="fade-right"> <img src="skip.jpg" alt=""> </a></div>
     
 </section>
-
+<h3>Dine-in Today</h3>
 <section class="breakk">
-<h1>Dine-in Today</h1>
 
-    <img src="1c.png" alt="">
+
+    <img src="1c.png" alt="" data-aos="fade-left">
 
 
 
@@ -78,10 +82,10 @@
     </section>
 <section class="about">
 <div class="roww">
-   <div>
-    <a href="index.html"><img src="storef.jpg"></a>
-   
-        
+   <div class="" >
+    <a href="index.html"><img src="shop.png" data-aos="fade-left"></a>
+    <a href="index.html"><img src="shop (1).png" data-aos="fade-left"></a>
+    <a href="index.html"><img src="shop (2).png" data-aos="fade-left"></a>  
 
     </div>
 </div>
@@ -92,7 +96,7 @@
 
 
  
-    <a href=""> <img src="reeview.png" alt=""></a>  
+    <a href=""> <img src="reeview.png" alt="" data-aos="fade-right"></a>  
         
     
 
@@ -103,7 +107,7 @@
 
 </section>
 
-<section class="sociall">
+<section class="sociall" data-aos="fade-up">
     <a href="https://www.instagram.com/ilovecelsius/?hl=en" class="ig"><img src="instagram(1).png" alt="" ></a>
     <h1> Follow Us @ ilovecelsius</h1>
    
@@ -123,9 +127,9 @@
 </section>
 <section class="bottom">
 
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2605.613590227903!2d-123.09270468503433!3d49.226854879325295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548675a49e20fedd%3A0xf04a350b5f4be365!2sCelsius!5e0!3m2!1sen!2sca!4v1669513238213!5m2!1sen!2sca" padding-top:50px; width="500" height="500" style="border:0;" allowfullscreen="" item-align: left;loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe class="from-right.appear" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2605.613590227903!2d-123.09270468503433!3d49.226854879325295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548675a49e20fedd%3A0xf04a350b5f4be365!2sCelsius!5e0!3m2!1sen!2sca!4v1669513238213!5m2!1sen!2sca" padding-top:50px; width="500" height="500" style="border:0;" allowfullscreen="" item-align: left;loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 <div class="seo">
-    <div><img src="logo1.png" class="tru" alt=""></div>
+    <div><img src="logo1.png" class="tru" alt="" data-aos="flip-up"></div>
     <div class="sock">
     <a href="https://www.instagram.com/ilovecelsius/?hl=en"><img src="instagram(1).png"  alt="" width="50px"></a>
     <a href="https://www.facebook.com/ilovecelsius/"><img src="facebook(1).png" alt=""  width="50px"></a>
@@ -147,6 +151,28 @@
 
 </div>
 </section>
+
+
+
+<script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+    e.preventDefault();
+    document.querySelector(this.getAttribute('href')).scrollIntoView({
+        behavior: 'smooth'
+    });
+});
+});
+
+
+</script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 3000,
+        once: true,
+      });
+    </script>
 
 <script>
 

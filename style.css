@@ -11,7 +11,9 @@ nav.sticky{
     position: fixed;
     top: 0;
     
+    
 }
+
 header{
     width: 100%;
     background-color: #252525;
@@ -23,7 +25,7 @@ header{
     background-size: 100%;
     
     position:-webkit-sticky;
-    background-attachment: fixed;
+    
   
   background-repeat: no-repeat;
 }
@@ -54,6 +56,7 @@ header p{
     -o-animation: fadeIn 5s;
     -ms-animation: fadeIn 5s;
     text-decoration: none;
+    -webkit-transform: translateX(1);
     
 }
 .text-box a{
@@ -65,12 +68,12 @@ header p{
     font-size: 80px;
     color: rgb(0, 0, 0);
     font-weight: 200;
-    position:-webkit-sticky;
+    
 }
 .text-box p{
-    margin: 10px 0 40px;
-    font-size: 42px;
-    position:-webkit-sticky;
+    
+    font-size: 32px;
+   
     color: #fa7e09;
 }
 
@@ -92,7 +95,7 @@ header p{
     -ms-animation: fadeIn 5s;
 }
 .break{
-    min-height: 200px;
+    height: 600px;
     width: 100%;
     
     background-color: #000;
@@ -106,28 +109,35 @@ header p{
   background-repeat: no-repeat;
     display: flex;
     
-    padding-top: 25px;
+    
 
+}
+h3{
+    color: white;
+    margin: auto;
+    display: block;
+    font-weight: 200;
+    font-size: 38px;
+    background-color: #000;
+    text-align: center;
 }
 .break a{
     position:-webkit-sticky;
-
+    width: 350px;
 }
 .breakk{
-    min-height: 200px;
+    
     width: 100%;
     
-    background-position: center;
+    
     display: flex;
-    background-size: 250%;
+    background-size: 100%;
     
-    background-image: url(bg4.png);
+    background-image: url(sea\ \(3\).png);
     position:-webkit-sticky;
+    background-repeat: no-repeat;
+  
     
-  background-position: center;
-  background-repeat: no-repeat;
-    padding-top: 100px;
-    padding-bottom: 100px;
 
 
 }
@@ -138,27 +148,28 @@ header p{
 .about{
 
     margin: auto;
-    width: 100%;
-    background-image: url(4.png);
-    background-size: cover;
+    background-size: 100%;
+    background-color: #000;
     
+    display: flex;
     position:-webkit-sticky;
-    background-attachment: fixed;
-  background-position: center;
+   
   background-repeat: no-repeat;
     text-align: center;
-    padding-top: 400px;
-    padding-bottom: 400px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
     
 }
 .roww img{
-
+padding: 50px;
     
-    width: 80%;
+    width: 20%;
     
-    
+    flex-direction: column;
+    margin: auto;
     border-radius: 500px;
-    
+    justify-content: space-between;
 
 }
 .hero-htn:hover{
@@ -178,13 +189,17 @@ nav{
     background-attachment: fixed;
     justify-content: space-between;
     align-items: left;
+
    
    
     
 }
 nav img{
-    width: 120px;
+    width: 100px;
     align-items:left;
+    
+    
+    border-radius: 10px;
 }
 
 .nav-links{
@@ -214,7 +229,7 @@ nav img{
     content: '';
     width: 0%;
     height: 2px;
-    background: #0071bc;
+    background: #fa7e09;
     display: block;
     margin: auto;
 }
@@ -225,7 +240,15 @@ nav .fa{
     display: none;
     
 }
+.vid{
+    width: 100%;
 
+}
+.vid img{
+    width: 70%;
+    margin: auto;
+    display: block;
+}
 .service{
 display: flex;
     width: 90%;
@@ -278,20 +301,7 @@ p{
 .row img{
     width: 300px;
 }
-.breakk{
-    
-    width: 100%;
-    margin: auto;
-    display: flex;
-   
-    position:-webkit-sticky;
-    
-    margin-top: 50px;
-    border: #fa7e09;
-    border-radius: 10px;
-    border-style: ridge;
-    
-}
+
 .contain-text{
     margin: auto;
     text-align: center;
@@ -708,6 +718,7 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
     }
     .break{
         display: block;
+        height: fit-content;
     }
     .fcf-body{
         max-width: 80%;
@@ -715,7 +726,11 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
         margin-right: 5%;
         
     }
-    
+    .roww img{
+        width: 200px;
+        flex-direction: row;
+        margin: auto;
+    }
     }
     .down img{
         display: block;
@@ -820,12 +835,16 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
       
       
       }
-    @media(max-width: 1900px){
+    @media(max-width: 700px){
     .text-box h1{
         width: 100%;
         margin-top: 50%;
         display: block;
         margin: auto;
+    }
+    .text-box p{
+        padding: 10px;
+        justify-content: space-between;
     }
     
 
@@ -939,21 +958,18 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
     
     .about{
         
-        width: 90%;
+        width: 100%;
     margin: auto;
-    display: flex;
+    display: block;
    
     position: -webkit-sticky;
-    background-size: 300%;
-    margin-top: 50px;
-    border: #fa7e09;
-    border-radius: 10px;
-    border-style: ridge;
+    
+    
         
     }
     
 .row{
-    flex-direction: column;
+    flex-direction: row;
     
     
     width: 100%;
@@ -961,12 +977,7 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
     
     
     
-    .about{
-        width: 100%; 
-        background-color: #ffffff60;
-        display: block;
-        margin: auto;
-    }
+    
     @media(max-width: 700px){
         .hero-btn {
             display: block;
@@ -1017,21 +1028,7 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
         width: 100vw;
     }
 }
-.bottom{
 
-    background-color: #1b1b11;
-    background-image: url(bg5.png);
-    margin: auto;
-    
-    position:-webkit-sticky;
-    background-position: center;
-    background-size: 250%;
-    
-    text-align: center;
-    animation: fadeIn 5s;
-
-
-}
 .bottom .fa{
    display:block
    
@@ -1045,8 +1042,8 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
     transition: 0.5s;
     text-align: center;
     position:-webkit-sticky;
-    background-size: 250%;
-    background-image: url(bg2.png);
+    background-size: 100%;
+    background-image: url(green.png);
     
     
     
@@ -1148,6 +1145,9 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
     display: flex;
 }
 @media(max-width: 700px){
+    .bottom{
+        background-size: 200%;
+    }
     .hero-btn {
         display: block;
         margin: auto;
@@ -1262,3 +1262,39 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
     text-shadow: 0 0 1px #000;
   }
   
+
+  
+.from-left {
+    grid-column: 2 / 3;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+  
+  .from-right {
+    grid-column: 3 / 4;
+    -webkit-transform: translateX(50%);
+    transform: translateX(50%);
+  }
+  
+  .from-left,
+  .from-right {
+    transition: opacity 250ms ease-in, -webkit-transform 400ms ease-in;
+    transition: opacity 250ms ease-in, transform 400ms ease-in;
+    transition: opacity 250ms ease-in, transform 400ms ease-in,
+      -webkit-transform 400ms ease-in;
+    opacity: 0;
+  }
+  
+  .from-left.appear,
+  .from-right.appear {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+  .hidden{
+    opacity: 0;
+    transition: all 1s;
+  }
+  .show{
+    opacity: 1;
+  }
