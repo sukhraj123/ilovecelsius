@@ -13,13 +13,21 @@ nav.sticky{
     
     
 }
+h4{
+    font-size: 18px;
+    font-weight: 200;
+    font-style: italic;
+    margin: auto;
+    text-align: center;
+    color: #000;
+}
 
 header{
     width: 100%;
     background-color: #252525;
     
     margin: auto;
-    height: 800px;
+    height: 700px;
     background-image: url(cshop.gif);
     
     background-size: 100%;
@@ -374,8 +382,8 @@ p{
     border-radius: 15px;
 }
 h4{
-    color:#fff;
-    font-size: 32px;
+    color:rgb(0, 0, 0);
+    font-size: 18px;
     font-weight: 100;
     line-height: 5px;
     text-align: center;
